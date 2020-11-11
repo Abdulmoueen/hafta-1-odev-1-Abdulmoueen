@@ -1,0 +1,15 @@
+public class araba {
+    private String marka;
+    private String model;
+    private String renk;
+
+    public araba(String _marka, String _model, String _renk) {
+        this.marka = _marka;
+        this.model = _model;
+        this.renk = _renk;
+    }
+
+    public void arabaninOzelikleri() {
+        System.out.printf("arabamın markası : %s\narabamın modeli : %s\narabamın renki :", this.marka, this.model, this.renk);
+    }
+}
